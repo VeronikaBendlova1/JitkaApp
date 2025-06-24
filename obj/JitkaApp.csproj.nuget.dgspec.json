@@ -1,26 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/app/JitkaApp.csproj": {}
+    "G:\\aktuálníApp\\JitkaApp\\JitkaApp.csproj": {}
   },
   "projects": {
-    "/app/JitkaApp.csproj": {
+    "G:\\aktuálníApp\\JitkaApp\\JitkaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/app/JitkaApp.csproj",
+        "projectUniqueName": "G:\\aktuálníApp\\JitkaApp\\JitkaApp.csproj",
         "projectName": "JitkaApp",
-        "projectPath": "/app/JitkaApp.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/app/obj/",
+        "projectPath": "G:\\aktuálníApp\\JitkaApp\\JitkaApp.csproj",
+        "packagesPath": "C:\\Users\\ROLLO\\.nuget\\packages\\",
+        "outputPath": "G:\\aktuálníApp\\JitkaApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [],
         "configFilePaths": [
-          "/root/.nuget/NuGet.Config"
+          "G:\\aktuálníApp\\JitkaApp\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "6.0.413"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -88,7 +88,8 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
-          }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

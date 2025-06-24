@@ -1,0 +1,10 @@
+G:\aktuálníApp\JitkaApp\obj\Release\net6.0\JitkaApp.csproj.AssemblyReference.cache
+G:\aktuálníApp\JitkaApp\obj\Release\net6.0\JitkaApp.GeneratedMSBuildEditorConfig.editorconfig
+G:\aktuálníApp\JitkaApp\obj\Release\net6.0\JitkaApp.AssemblyInfoInputs.cache
+G:\aktuálníApp\JitkaApp\obj\Release\net6.0\JitkaApp.AssemblyInfo.cs
+G:\aktuálníApp\JitkaApp\obj\Release\net6.0\JitkaApp.csproj.CoreCompileInputs.cache
+G:\aktuálníApp\JitkaApp\obj\Release\net6.0\JitkaApp.MvcApplicationPartsAssemblyInfo.cs
+G:\aktuálníApp\JitkaApp\obj\Release\net6.0\JitkaApp.MvcApplicationPartsAssemblyInfo.cache
+G:\aktuálníApp\JitkaApp\obj\Release\net6.0\JitkaApp.RazorAssemblyInfo.cache
+G:\aktuálníApp\JitkaApp\obj\Release\net6.0\JitkaApp.RazorAssemblyInfo.cs
+G:\aktuálníApp\JitkaApp\obj\Release\net6.0\JitkaApp.sourcelink.json
