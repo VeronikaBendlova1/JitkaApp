@@ -1,93 +1,97 @@
-﻿using JitkaApp.Data;
+﻿// Načtení vlastních tříd (Data, Models), identity a EF Core
+using JitkaApp.Data;
 using JitkaApp.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
+// Vytvoření builderu aplikace – základ pro konfiguraci a DI
 var builder = WebApplication.CreateBuilder(args);
 
+// Načtení connection stringu z appsettings.json
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+// Registrace EF Core s PostgreSQL (Npgsql)
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(connectionString));
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-
-
-
-
+// Umožňuje získat HttpContext odkudkoli v aplikaci
 builder.Services.AddHttpContextAccessor();
+
+// Konfigurace identity (přihlášení, role, uživatelé)
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddRoles<IdentityRole>() // ← důležité pro role
+    .AddRoles<IdentityRole>() // Umožňuje práci s rolemi (např. Admin)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
-
+// Načtení nastavení e-mailu z appsettings.json do modelu EmailSettings
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.AddSingleton(resolver =>
     resolver.GetRequiredService<IOptions<EmailSettings>>().Value);
 
+// MVC: Registrace kontrolerů a razor viewů
 builder.Services.AddControllersWithViews();
 
+// Paměťová cache + konfigurace Session (trvání, cookies)
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromHours(1); 
+    options.IdleTimeout = TimeSpan.FromHours(1);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
 
-
-
-
-
-
+// Vytvoření instance aplikace
 var app = builder.Build();
 
-// Middleware pro vývojové/provozní prostředí
+// Vývojové/provozní prostředí
 if (app.Environment.IsDevelopment())
 {
-   // app.UseMigrationsEndPoint();
+    // app.UseMigrationsEndPoint(); // můžeš aktivovat pro migrace ve vývoji
 }
 else
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    app.UseExceptionHandler("/Home/Error"); // uživatelsky přívětivá chybová stránka
+    app.UseHsts(); // bezpečnostní hlavička (HTTPS)
 }
 
+// Aktivace session (musí být před routingem)
+app.UseSession();
 
-app.UseSession(); // musí být PŘED UseEndpoints nebo UseRouting
-
-
-
-
-
-
+// Přesměrování na HTTPS
 app.UseHttpsRedirection();
-app.UseRouting();
 
-app.UseAuthorization();
-
+// Zajišťuje, že se budou statické soubory (wwwroot) obsluhovat
 app.UseStaticFiles();
 
+// Konfigurace směrování požadavků
+app.UseRouting();
+
+// Autorizace (např. omezení přístupu dle role)
+app.UseAuthorization();
+
+// Mapování kontrolerů (např. HomeController -> /Home/Index)
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapRazorPages()
-   .WithStaticAssets();
+// Mapování razor pages (/Identity atd.)
+app.MapRazorPages();
 
-// admin
-// admin
+// --- Opraveno: odstraněno `.WithStaticAssets()` z neexistujících metod ---
+// Pokud máš vlastní extension metodu `WithStaticAssets`, zkontroluj, že je správně definována a naimportována.
+
+// --- Automatická role Admin ---
+
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
     var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
 
     string roleName = "Admin";
-    string adminEmail = "brushbabycoloring@gmail.com"; // ← nahraď svým e-mailem
+    string adminEmail = "brushbabycoloring@gmail.com";
 
-    // ✅ Přidáno: retry mechanismus + ošetření výpadků DB při startu
+    // Pokus o vytvoření role a přiřazení role uživateli
     int pokusy = 0;
     const int maxPokusy = 3;
     bool hotovo = false;
@@ -98,13 +102,13 @@ using (var scope = app.Services.CreateScope())
         {
             pokusy++;
 
-            // 1. Vytvoří roli "Admin", pokud ještě neexistuje
+            // Pokud role neexistuje, vytvoří ji
             if (!await roleManager.RoleExistsAsync(roleName))
             {
                 await roleManager.CreateAsync(new IdentityRole(roleName));
             }
 
-            // 2. Najdi uživatele a přiřaď mu roli Admin
+            // Najde uživatele a přiřadí mu roli Admin
             var user = await userManager.FindByEmailAsync(adminEmail);
             if (user != null && !await userManager.IsInRoleAsync(user, roleName))
             {
@@ -118,7 +122,7 @@ using (var scope = app.Services.CreateScope())
             Console.WriteLine($"❗ Chyba při nastavování role Admin (pokus {pokusy}): {ex.Message}");
             if (pokusy < maxPokusy)
             {
-                await Task.Delay(2000); // čekej 2 sekundy před dalším pokusem
+                await Task.Delay(2000); // Počkej 2 sekundy a zkus to znovu
             }
             else
             {
@@ -128,10 +132,5 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-
-
-
-
-
-
+// Spuštění aplikace
 app.Run();

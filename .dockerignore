@@ -1,0 +1,7 @@
+bin/
+obj/
+faktury/
+*.md
+*.user
+*.txt
+.git/
