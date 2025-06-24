@@ -1,37 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "G:\\aktuálníApp\\JitkaApp\\JitkaApp.csproj": {}
+    "/app/JitkaApp.csproj": {}
   },
   "projects": {
-    "G:\\aktuálníApp\\JitkaApp\\JitkaApp.csproj": {
+    "/app/JitkaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\aktuálníApp\\JitkaApp\\JitkaApp.csproj",
+        "projectUniqueName": "/app/JitkaApp.csproj",
         "projectName": "JitkaApp",
-        "projectPath": "G:\\aktuálníApp\\JitkaApp\\JitkaApp.csproj",
-        "packagesPath": "C:\\Users\\ROLLO\\.nuget\\packages\\",
-        "outputPath": "G:\\aktuálníApp\\JitkaApp\\obj\\",
+        "projectPath": "/app/JitkaApp.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/app/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
+        "fallbackFolders": [],
         "configFilePaths": [
-          "C:\\Users\\ROLLO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -45,31 +39,31 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "6.0.413"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[6.0.13, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[6.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[6.0.13, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[6.0.13, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[6.0.8, )"
             },
             "QuestPDF": {
               "target": "Package",
@@ -94,8 +88,7 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          }
         }
       }
     }
