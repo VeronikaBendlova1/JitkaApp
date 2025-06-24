@@ -1,0 +1,50 @@
+﻿@model JitkaApp.Models.Product
+@{
+    ViewData["Title"] = "Přidat nový produkt";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="PridatProdukt" method="post">
+    <div class="form-group">
+        <label asp-for="Nazev"></label>
+        <input asp-for="Nazev" class="form-control" />
+        <span asp-validation-for="Nazev" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Popis"></label>
+        <textarea asp-for="Popis" class="form-control"></textarea>
+        <span asp-validation-for="Popis" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Cena"></label>
+        <input asp-for="Cena" type="number" step="0.01" class="form-control" />
+        <span asp-validation-for="Cena" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Obrazek"></label>
+        <input asp-for="Obrazek" class="form-control" />
+        <span asp-validation-for="Obrazek" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Cesta"></label>
+        <input asp-for="Cesta" class="form-control" />
+        <span asp-validation-for="Cesta" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Přidat produkt</button>
+</form>
+
+<p>
+    <h3>ViewBag.PridanyProdukt</h3>
+</p>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

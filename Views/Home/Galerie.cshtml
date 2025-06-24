@@ -1,0 +1,29 @@
+﻿@model List<JitkaApp.Models.Product>
+
+@{
+    ViewData["Title2"] = "Galerie";
+}
+@section Scripts{
+    <script src="~/lib/lightbox2/js/lightbox.min.js" asp-append-version="true"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+}
+
+<section>
+    <div class="gallery-kontejner">
+        @foreach (var produkt in Model)
+        {
+
+            <div class="gallery-item">
+                <a href="@Url.Content($"~/obrazky/{produkt.Obrazek}")"
+                   title="@produkt.Nazev"
+                   rel="lightbox[Galerie]"
+                   data-lightbox="gallery">
+                    <img src="@Url.Content($"~/obrazky/{produkt.Obrazek}")"
+                         alt="@produkt.Nazev" />
+                </a>
+
+            </div>
+
+        }
+    </div>
+</section>

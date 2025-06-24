@@ -1,0 +1,43 @@
+﻿@model List<JitkaApp.Models.Product> // nezapomenout přidat
+
+@section Scripts {
+    <script src="~/lib/lightbox2/js/lightbox.min.js" asp-append-version="true"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+}
+
+@{
+    ViewData["Title2"] = "Obchod";
+}
+
+
+<p>Vyberte fotografie, které chcete zakoupit:</p>
+
+@if (TempData["PridatDoKosiku"] != null)
+{
+    <p class="alert alert-success alert-custom">@TempData["PridatDoKosiku"]</p>
+}
+
+<ul class="gallery-kontejner">
+    
+    @foreach (var produkt in Model)
+    {
+        
+            <div class="gallery-item">
+                <a href="@Url.Content($"~/obrazky/{produkt.Obrazek}")"
+                   title="@produkt.Nazev"
+                   rel="lightbox[Galerie]"
+                   data-lightbox="gallery">
+                    <img src="@Url.Content($"~/obrazky/{produkt.Obrazek}")"
+                         alt="@produkt.Nazev"  />
+                </a>
+                <strong>@produkt.Nazev</strong> – @produkt.Cena Kč
+                <br />
+                <a asp-controller="Shop" asp-action="PridatDoKosiku" asp-route-id="@produkt.Id">Přidat do košíku</a>
+            </div>
+        
+    }
+   
+</ul>
+
+
+

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\JitkaApp.props" />
+</Project>

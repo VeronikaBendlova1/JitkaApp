@@ -1,0 +1,589 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\JitkaApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\JitkaApp.fmffqgrg7o.bundle.scp.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\css\\lightbox.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\images\\close.png",
+      "PackagePath": "staticwebassets\\images\\close.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\images\\jitka.jpg",
+      "PackagePath": "staticwebassets\\images\\jitka.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\js\\lightbox-plus-jquery.js",
+      "PackagePath": "staticwebassets\\js\\lightbox-plus-jquery.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\js\\lightbox-plus-jquery.min.map",
+      "PackagePath": "staticwebassets\\js\\lightbox-plus-jquery.min.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\js\\lightbox.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\js\\lightbox.min.map",
+      "PackagePath": "staticwebassets\\js\\lightbox.min.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\lightbox2\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\lib\\lightbox2\\css\\lightbox.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\lightbox2\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\lightbox2\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\lightbox2\\images\\close.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox2\\images\\close.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\lightbox2\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\lib\\lightbox2\\images\\loading.gif"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\lightbox2\\images\\next.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox2\\images\\next.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\lightbox2\\images\\prev.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox2\\images\\prev.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\lightbox2\\js\\lightbox-plus-jquery.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox2\\js\\lightbox-plus-jquery.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\lightbox2\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox2\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\lightbox2\\js\\lightbox-plus-jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\lightbox2\\js\\lightbox-plus-jquery.min.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\lightbox2\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox2\\js\\lightbox.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\lightbox2\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox2\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lib\\lightbox2\\js\\lightbox.min.map",
+      "PackagePath": "staticwebassets\\lib\\lightbox2\\js\\lightbox.min.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\.editorconfig",
+      "PackagePath": "staticwebassets\\lightbox2\\.editorconfig"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\.gitignore",
+      "PackagePath": "staticwebassets\\lightbox2\\.gitignore"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\.jscsrc",
+      "PackagePath": "staticwebassets\\lightbox2\\.jscsrc"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\.jshintrc",
+      "PackagePath": "staticwebassets\\lightbox2\\.jshintrc"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\DEPLOY.md",
+      "PackagePath": "staticwebassets\\lightbox2\\DEPLOY.md"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\Gruntfile.js",
+      "PackagePath": "staticwebassets\\lightbox2\\Gruntfile.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\LICENSE",
+      "PackagePath": "staticwebassets\\lightbox2"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\README.md",
+      "PackagePath": "staticwebassets\\lightbox2\\README.md"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\ROADMAP.md",
+      "PackagePath": "staticwebassets\\lightbox2\\ROADMAP.md"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\bower.json",
+      "PackagePath": "staticwebassets\\lightbox2\\bower.json"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\dist\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\css\\lightbox.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\dist\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\dist\\images\\close.png",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\images\\close.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\dist\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\images\\loading.gif"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\dist\\images\\next.png",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\images\\next.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\dist\\images\\prev.png",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\images\\prev.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\dist\\js\\lightbox-plus-jquery.js",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\js\\lightbox-plus-jquery.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.map",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\dist\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\js\\lightbox.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\dist\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\dist\\js\\lightbox.min.map",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\js\\lightbox.min.map"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\examples\\index.html",
+      "PackagePath": "staticwebassets\\lightbox2\\examples\\index.html"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\package-lock.json",
+      "PackagePath": "staticwebassets\\lightbox2\\package-lock.json"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\package.json",
+      "PackagePath": "staticwebassets\\lightbox2\\package.json"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\src\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\lightbox2\\src\\css\\lightbox.css"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\src\\images\\close.png",
+      "PackagePath": "staticwebassets\\lightbox2\\src\\images\\close.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\src\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\lightbox2\\src\\images\\loading.gif"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\src\\images\\next.png",
+      "PackagePath": "staticwebassets\\lightbox2\\src\\images\\next.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\src\\images\\prev.png",
+      "PackagePath": "staticwebassets\\lightbox2\\src\\images\\prev.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\lightbox2\\src\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\lightbox2\\src\\js\\lightbox.js"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\close.png",
+      "PackagePath": "staticwebassets\\obrazky\\close.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\jitka.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\jitka.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\jitka2.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\jitka2.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\loading.gif",
+      "PackagePath": "staticwebassets\\obrazky\\loading.gif"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\nahled.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\nahled.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\next.png",
+      "PackagePath": "staticwebassets\\obrazky\\next.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr1.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr1.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr10.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr10.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr11.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr11.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr1Nahled.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr1Nahled.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr2.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr2.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr2Nahled.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr2Nahled.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr3.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr3.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr3Nahled.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr3Nahled.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr4.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr4.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr5.png",
+      "PackagePath": "staticwebassets\\obrazky\\obr5.png"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr6.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr6.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr7.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr7.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr8.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr8.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\obr9.jpg",
+      "PackagePath": "staticwebassets\\obrazky\\obr9.jpg"
+    },
+    {
+      "Id": "G:\\aktuálníApp\\JitkaApp\\wwwroot\\obrazky\\prev.png",
+      "PackagePath": "staticwebassets\\obrazky\\prev.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.JitkaApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.JitkaApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.JitkaApp.props",
+      "PackagePath": "build\\JitkaApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.JitkaApp.props",
+      "PackagePath": "buildMultiTargeting\\JitkaApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.JitkaApp.props",
+      "PackagePath": "buildTransitive\\JitkaApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

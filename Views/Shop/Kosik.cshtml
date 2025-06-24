@@ -1,0 +1,76 @@
+﻿@model List<KosikovaPolozka>
+
+
+<h2>Nákupní košík</h2>
+
+@if (ViewBag.Zprava != null)
+{
+    var typ = ViewBag.TypZpravy ?? "info"; // výchozí barva, když typ chybí // bootstrap
+    <div class="alert alert-@typ alert-custom" role="alert">
+        @ViewBag.Zprava
+    </div>
+}
+
+
+@if (Model == null || !Model.Any())
+{
+    <p>Košík je prázdný.</p>
+}
+else
+{
+    <table class="kosik-table">
+        <tr>
+            <th>Produkt</th>
+            <th>Náhled</th>
+            <th>Počet</th>
+            <th>Cena</th>
+            <th>Odebrat</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Produkt.Nazev</td>
+                <td><img src="@item.Produkt.Cesta" width="150" /></td>
+                <td>@item.Pocet</td>
+                <td>@(item.Pocet * item.Produkt.Cena) Kč</td>
+                <td>
+                    <form asp-action="OdebratJednuPolozku" method="post">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit">Odebrat</button>
+                    </form>
+                </td>
+            </tr>
+        }
+
+        <tr class="celkem-row">
+            <td colspan="4" style="text-align: right; padding-right: 0;">Cena celkem za zboží:</td>
+            <td style="text-align: right;">@ViewBag.Celkem Kč</td>
+        </tr>
+    </table>
+
+    <h2 style="margin: 150px auto auto 20px">Shrnutí objednávky</h2>
+
+    <form asp-action="OdeslatObjednavku" method="post" class="objednavka-form">
+        <p>
+            <input type="text" name="jmeno" placeholder="Jméno" required class="objednavka-input" maxlength="20">
+            <input type="text" name="prijmeni" placeholder="Příjmení" required class="objednavka-input" maxlength="20">
+        </p>
+        <p>
+            <input type="text" name="ulice" placeholder="Ulice" required class="objednavka-input" maxlength="30">
+            <input type="text" name="mesto" placeholder="Město" required class="objednavka-input" maxlength="20">
+            <input type="text" name="psc" placeholder="PSČ" required class="objednavka-input" maxlength="8">
+        </p>
+        <p>
+            <input type="email" name="email" placeholder="Zadejte svůj e-mail" required class="objednavka-input" maxlength="40">
+        </p>
+        <p>
+            <input type="text" name="poznamky" placeholder="Poznámky" required class="objednavka-input" maxlength="200">
+        </p>
+        <p>
+            <button type="submit" class="objednavka-button">Odeslat objednávku</button>
+        </p>
+    </form>
+
+
+}

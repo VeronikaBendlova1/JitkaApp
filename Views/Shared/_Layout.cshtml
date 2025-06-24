@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Jitka Ertelová - Fotografie</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <script src="~/lib/lightbox2/js/lightbox.min.js" asp-append-version="true"></script>
+    <link rel="stylesheet" href="styl.css" type="text/css" />
+
+
+
+   
+</head>
+<body><div class="container">
+    <header>
+        <h1>@ViewData["Title"] Jitka Ertelová 
+            <p>Temná krása měst a prázdnoty</p>
+        </h1>
+        <nav>
+            <ul>
+                <li><a asp-controller="Home" asp-action="Index"><nobr>O mě</nobr></a></li>
+                <li><a asp-controller="Home" asp-action="Galerie">Galerie</a></li>
+                <li><a asp-controller="Shop" asp-action="Obchod">Obchod</a></li>
+                <li> @await Component.InvokeAsync("KosikInfo")</li>
+                <li><a asp-controller="Home" asp-action="Kontakt">Kontakt</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <header>
+            <h2>@ViewData["Title2"]</h2>
+        </header>
+
+        <section>
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-controller="Admin" asp-action="PridatProdukt">Admin sekce</a>
+                }
+
+            @RenderBody()
+        </section>
+    </article>
+
+        
+    <footer>
+            🤍  „Každý snímek je způsob, jak zadržet čas – aspoň na chvíli.“         &copy; 2025 - Jitka Ertelová
+                </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    </div>
+</body>
+</html>
