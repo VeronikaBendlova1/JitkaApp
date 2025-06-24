@@ -7,15 +7,14 @@
     <UserSecretsId>aspnet-JitkaApp-90be5df4-531f-4372-9fe8-5485afb4b134</UserSecretsId>
   </PropertyGroup>
 
-  <ItemGroup>
-    
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.3" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
-    <PackageReference Include="QuestPDF" Version="2025.5.1" />
-  </ItemGroup>
+<ItemGroup>
+  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.13" />
+  <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.13" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.13" />
+  <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.8" />
+  <PackageReference Include="QuestPDF" Version="2025.5.1" />
+</ItemGroup>
 
   <ItemGroup>
     <Folder Include="Migrations\" />
