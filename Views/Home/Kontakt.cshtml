@@ -8,4 +8,16 @@
 <p><strong>Adresa:  </strong>Karlovy Vary</p>
 <p><strong>Telefon:  </strong>*********</p>
 <p><strong>Email:  </strong>benveronika@seznam.cz</p>
+<p>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <a style="text-decoration: none; color: white;" asp-area="Identity" asp-page="/Account/Login"><small>🔧Správa projektu</small></a>
+    }
+    else
+    {
+        <form method="post" asp-area="Identity" asp-page="/Account/Logout" id="logoutForm" class="form-inline">
+            <button type="submit" class="btn btn-link nav-link" style="padding:0;">Odhlásit se (@User.Identity.Name)</button>
+        </form>
+    }
+</p>
 

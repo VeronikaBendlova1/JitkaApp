@@ -1,9 +1,11 @@
-﻿// Načtení vlastních tříd (Data, Models), identity a EF Core
+// Načtení vlastních tříd (Data, Models), identity a EF Core
 using JitkaApp.Data;
 using JitkaApp.Models;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using System.IO;
 
 // Vytvoření builderu aplikace – základ pro konfiguraci a DI
 var builder = WebApplication.CreateBuilder(args);
@@ -39,8 +41,16 @@ builder.Services.AddSession(options =>
     options.IdleTimeout = TimeSpan.FromHours(1);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
+    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
 });
 
+// Konfigurace cookies pro Identity
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/Login";
+    options.AccessDeniedPath = "/Account/AccessDenied";
+});
+builder.Services.AddRazorPages();
 // Vytvoření instance aplikace
 var app = builder.Build();
 
@@ -55,20 +65,31 @@ else
     app.UseHsts(); // bezpečnostní hlavička (HTTPS)
 }
 
-// Aktivace session (musí být před routingem)
-app.UseSession();
-
 // Přesměrování na HTTPS
 app.UseHttpsRedirection();
 
 // Zajišťuje, že se budou statické soubory (wwwroot) obsluhovat
 app.UseStaticFiles();
 
+// Aktivace session (musí být před Authentication!)
+app.UseSession();
+
 // Konfigurace směrování požadavků
 app.UseRouting();
 
+// ✅ Aktivace Identity – AUTENTIZACE (musí být před Authorization)
+app.UseAuthentication();
+
 // Autorizace (např. omezení přístupu dle role)
 app.UseAuthorization();
+
+//test admin
+app.Use(async (context, next) =>
+{
+    var user = context.User;
+    Console.WriteLine($"IsAuthenticated: {user.Identity.IsAuthenticated}, Name: {user.Identity.Name}");
+    await next.Invoke();
+});
 
 // Mapování kontrolerů (např. HomeController -> /Home/Index)
 app.MapControllerRoute(

@@ -3,16 +3,68 @@
   "WorkspaceRootPath": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\views\\home\\kontakt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:views\\home\\kontakt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\views\\shop\\kosik.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:views\\shop\\kosik.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\views\\admin\\pridatprodukt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:views\\admin\\pridatprodukt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\viewcomponents\\_kosikinfoviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:viewcomponents\\_kosikinfoviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\views\\shop\\obchod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,52 +75,24 @@
       "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\views\\shared\\components\\kosikinfo\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:views\\shared\\components\\kosikinfo\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\models\\fakturagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:models\\fakturagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\views\\home\\kontakt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:views\\home\\kontakt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\viewcomponents\\_kosikinfoviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:viewcomponents\\_kosikinfoviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\views\\home\\galerie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:views\\home\\galerie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\jitkaapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -76,10 +100,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21893736-2A2D-455E-B20C-47711ACA8DDB}|JitkaApp.csproj|g:\\aktu\u00E1ln\u00EDapp\\jitkaapp\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -101,7 +121,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -118,16 +138,89 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-07T11:56:06.726Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAnwIsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T08:46:59.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Kontakt.cshtml",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Home\\Kontakt.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Kontakt.cshtml",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Home\\Kontakt.cshtml",
+              "RelativeToolTip": "Views\\Home\\Kontakt.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T17:58:35.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T09:01:43.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAHUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-07T11:12:31.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T17:55:47.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T08:47:00.103Z"
             },
             {
               "$type": "Document",
@@ -137,62 +230,97 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-07T11:10:49.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T13:36:59.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
-              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "Controllers\\ShopController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T15:48:54.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Obchod.cshtml",
-              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Shop\\Obchod.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shop\\Obchod.cshtml",
-              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Shop\\Obchod.cshtml",
-              "RelativeToolTip": "Views\\Shop\\Obchod.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T15:56:06.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-07T11:12:31.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T09:01:43.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-29T08:12:42.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAqwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T15:47:57.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PridatProdukt.cshtml",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Admin\\PridatProdukt.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\PridatProdukt.cshtml",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Admin\\PridatProdukt.cshtml",
+              "RelativeToolTip": "Views\\Admin\\PridatProdukt.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T18:47:22.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T15:45:33.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_KosikInfoViewComponent.cs",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\ViewComponents\\_KosikInfoViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\_KosikInfoViewComponent.cs",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\ViewComponents\\_KosikInfoViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\_KosikInfoViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T08:00:47.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T11:55:43.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "FakturaGenerator.cs",
               "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Models\\FakturaGenerator.cs",
               "RelativeDocumentMoniker": "Models\\FakturaGenerator.cs",
@@ -204,19 +332,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PridatProdukt.cshtml",
-              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Admin\\PridatProdukt.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\PridatProdukt.cshtml",
-              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Admin\\PridatProdukt.cshtml",
-              "RelativeToolTip": "Views\\Admin\\PridatProdukt.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAADAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "Obchod.cshtml",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Shop\\Obchod.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Obchod.cshtml",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Shop\\Obchod.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Obchod.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-17T18:47:22.312Z"
+              "WhenOpened": "2025-04-08T15:56:06.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Controllers\\ShopController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T15:48:54.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:36:59.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Default.cshtml",
               "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Shared\\Components\\KosikInfo\\Default.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Components\\KosikInfo\\Default.cshtml",
@@ -228,31 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T15:47:57.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T17:55:47.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "appsettings.json",
               "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -264,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "Galerie.cshtml",
               "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Home\\Galerie.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Galerie.cshtml",
@@ -276,43 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Kontakt.cshtml",
-              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Home\\Kontakt.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Kontakt.cshtml",
-              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Views\\Home\\Kontakt.cshtml",
-              "RelativeToolTip": "Views\\Home\\Kontakt.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-17T17:58:35.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_KosikInfoViewComponent.cs",
-              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\ViewComponents\\_KosikInfoViewComponent.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\_KosikInfoViewComponent.cs",
-              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\ViewComponents\\_KosikInfoViewComponent.cs",
-              "RelativeToolTip": "ViewComponents\\_KosikInfoViewComponent.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T08:00:47.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Product.cs",
-              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T15:45:33.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -321,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "JitkaApp.csproj",
               "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\JitkaApp.csproj",
               "RelativeDocumentMoniker": "JitkaApp.csproj",
@@ -333,19 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T11:55:43.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "libman.json",
               "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\libman.json",
               "RelativeDocumentMoniker": "libman.json",
@@ -357,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "package-lock.json",
               "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\wwwroot\\lightbox2\\package-lock.json",
               "RelativeDocumentMoniker": "wwwroot\\lightbox2\\package-lock.json",
@@ -369,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "package.json",
               "DocumentMoniker": "G:\\aktu\u00E1ln\u00EDApp\\JitkaApp\\wwwroot\\lightbox2\\package.json",
               "RelativeDocumentMoniker": "wwwroot\\lightbox2\\package.json",
