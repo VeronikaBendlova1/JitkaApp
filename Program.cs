@@ -11,7 +11,6 @@ using System.IO;
 var builder = WebApplication.CreateBuilder(args);
 DotNetEnv.Env.Load(); // načte .env ze stejné složky jako Program.cs
 
-
 // Přidání .env proměnných
 builder.Configuration.AddEnvironmentVariables();
 
@@ -19,8 +18,6 @@ builder.Configuration.AddEnvironmentVariables();
 var connString = Environment.GetEnvironmentVariable("DB_CONNECTION");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connString)); 
-
-
 
 // Umožňuje získat HttpContext odkudkoli v aplikaci
 builder.Services.AddHttpContextAccessor();
@@ -30,18 +27,13 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddRoles<IdentityRole>() // Umožňuje práci s rolemi (např. Admin)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
-/*// Načtení nastavení e-mailu z appsettings.json do modelu EmailSettings
-builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
-builder.Services.AddSingleton(resolver =>
-    resolver.GetRequiredService<IOptions<EmailSettings>>().Value);*/
-
+// Načtení nastavení e-mailu z appsettings.json do modelu EmailSettings
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.PostConfigure<EmailSettings>(settings =>
 {
     settings.SmtpUser = Environment.GetEnvironmentVariable("SMTP_USER");
     settings.SmtpPassword = Environment.GetEnvironmentVariable("SMTP_PASSWORD");
 });
-
 
 // MVC: Registrace kontrolerů a razor viewů
 builder.Services.AddControllersWithViews();
@@ -63,6 +55,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.AccessDeniedPath = "/Account/AccessDenied";
 });
 builder.Services.AddRazorPages();
+
 // Vytvoření instance aplikace
 var app = builder.Build();
 
@@ -95,7 +88,7 @@ app.UseAuthentication();
 // Autorizace (např. omezení přístupu dle role)
 app.UseAuthorization();
 
-//test admin
+// Testovací middleware pro výpis informací o uživateli do konzole
 app.Use(async (context, next) =>
 {
     var user = context.User;
@@ -111,20 +104,26 @@ app.MapControllerRoute(
 // Mapování razor pages (/Identity atd.)
 app.MapRazorPages();
 
-// --- Opraveno: odstraněno `.WithStaticAssets()` z neexistujících metod ---
-// Pokud máš vlastní extension metodu `WithStaticAssets`, zkontroluj, že je správně definována a naimportována.
 
 // --- Automatická role Admin ---
+// Přesunuto do asynchronní metody, která se zavolá před spuštěním aplikace.
+// Důvod: async/await nelze používat přímo v top-level statements bez asynchronní metody.
+await InitializeAdminRoleAsync(app);
 
-using (var scope = app.Services.CreateScope())
+// Spuštění aplikace
+app.Run();
+
+
+// Pomocná asynchronní metoda pro inicializaci Admin role
+async Task InitializeAdminRoleAsync(WebApplication app)
 {
+    using var scope = app.Services.CreateScope();
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
     var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
 
     string roleName = "Admin";
     string adminEmail = "brushbabycoloring@gmail.com";
 
-    // Pokus o vytvoření role a přiřazení role uživateli
     int pokusy = 0;
     const int maxPokusy = 3;
     bool hotovo = false;
@@ -141,7 +140,7 @@ using (var scope = app.Services.CreateScope())
                 await roleManager.CreateAsync(new IdentityRole(roleName));
             }
 
-            // Najde uživatele a přiřadí mu roli Admin
+            // Najde uživatele a přiřadí mu roli Admin, pokud ji ještě nemá
             var user = await userManager.FindByEmailAsync(adminEmail);
             if (user != null && !await userManager.IsInRoleAsync(user, roleName))
             {
@@ -164,6 +163,3 @@ using (var scope = app.Services.CreateScope())
         }
     }
 }
-
-// Spuštění aplikace
-app.Run();
