@@ -5,22 +5,20 @@ using System.Net;
 using System.Net.Mail;
 using System.Text;
 using JitkaApp.Data;
+using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Authorization;
-
 
 namespace JitkaApp.Controllers
 {
     public class ShopController : Controller
     {
-        
         private readonly EmailSettings _emailSettings;
         private readonly ApplicationDbContext _context;
         private readonly IConfiguration _configuration;
 
-        public ShopController( EmailSettings emailSettings, ApplicationDbContext context, IConfiguration configuration)
+        public ShopController(IOptions<EmailSettings> emailSettingsAccessor, ApplicationDbContext context, IConfiguration configuration)
         {
-            
-            _emailSettings = emailSettings;
+            _emailSettings = emailSettingsAccessor.Value;
             _context = context;
             _configuration = configuration;
         }

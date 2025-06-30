@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "G:\\aktuálníApp\\JitkaApp\\JitkaApp.csproj": {}
+    "G:\\pracovni\\aktualni\\JitkaApp\\JitkaApp.csproj": {}
   },
   "projects": {
-    "G:\\aktuálníApp\\JitkaApp\\JitkaApp.csproj": {
+    "G:\\pracovni\\aktualni\\JitkaApp\\JitkaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\aktuálníApp\\JitkaApp\\JitkaApp.csproj",
+        "projectUniqueName": "G:\\pracovni\\aktualni\\JitkaApp\\JitkaApp.csproj",
         "projectName": "JitkaApp",
-        "projectPath": "G:\\aktuálníApp\\JitkaApp\\JitkaApp.csproj",
-        "packagesPath": "C:\\Users\\Tomas\\.nuget\\packages\\",
-        "outputPath": "G:\\aktuálníApp\\JitkaApp\\obj\\",
+        "projectPath": "G:\\pracovni\\aktualni\\JitkaApp\\JitkaApp.csproj",
+        "packagesPath": "C:\\Users\\ROLLO\\.nuget\\packages\\",
+        "outputPath": "G:\\pracovni\\aktualni\\JitkaApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "G:\\aktuálníApp\\JitkaApp\\NuGet.Config",
-          "C:\\Users\\Tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "G:\\pracovni\\aktualni\\JitkaApp\\NuGet.Config",
+          "C:\\Users\\ROLLO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -51,6 +51,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.35, )"
@@ -105,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

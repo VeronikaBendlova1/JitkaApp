@@ -9,14 +9,18 @@ using System.IO;
 
 // Vytvoření builderu aplikace – základ pro konfiguraci a DI
 var builder = WebApplication.CreateBuilder(args);
+DotNetEnv.Env.Load(); // načte .env ze stejné složky jako Program.cs
 
-// Načtení connection stringu z appsettings.json
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
-    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
-// Registrace EF Core s PostgreSQL (Npgsql)
+// Přidání .env proměnných
+builder.Configuration.AddEnvironmentVariables();
+
+// Načtení connection stringu
+var connString = Environment.GetEnvironmentVariable("DB_CONNECTION");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(connectionString));
+    options.UseNpgsql(connString)); 
+
+
 
 // Umožňuje získat HttpContext odkudkoli v aplikaci
 builder.Services.AddHttpContextAccessor();
@@ -26,10 +30,18 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddRoles<IdentityRole>() // Umožňuje práci s rolemi (např. Admin)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
-// Načtení nastavení e-mailu z appsettings.json do modelu EmailSettings
+/*// Načtení nastavení e-mailu z appsettings.json do modelu EmailSettings
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.AddSingleton(resolver =>
-    resolver.GetRequiredService<IOptions<EmailSettings>>().Value);
+    resolver.GetRequiredService<IOptions<EmailSettings>>().Value);*/
+
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.PostConfigure<EmailSettings>(settings =>
+{
+    settings.SmtpUser = Environment.GetEnvironmentVariable("SMTP_USER");
+    settings.SmtpPassword = Environment.GetEnvironmentVariable("SMTP_PASSWORD");
+});
+
 
 // MVC: Registrace kontrolerů a razor viewů
 builder.Services.AddControllersWithViews();
@@ -88,7 +100,7 @@ app.Use(async (context, next) =>
 {
     var user = context.User;
     Console.WriteLine($"IsAuthenticated: {user.Identity.IsAuthenticated}, Name: {user.Identity.Name}");
-    await next.Invoke();
+    await next(); // ✅ kratší a běžnější forma
 });
 
 // Mapování kontrolerů (např. HomeController -> /Home/Index)
